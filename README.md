@@ -51,8 +51,8 @@ This project is for educational purposes only and does not have a specific licen
 ![img3](https://github.com/user-attachments/assets/1f2cf94f-a658-4736-9c5e-a326a779d0bd)
 ![img4](https://github.com/user-attachments/assets/7a97f578-a491-4710-b0f2-68de0baf0e0a)
 ![img5](https://github.com/user-attachments/assets/4e7a4482-906c-4f1f-af83-bb8602616a60)
-![img6](https://github.com/user-attachments/assets/1b7194e5-ab6c-40ba-a369-4c20f3f6ad9a)
-![img7](https://github.com/user-attachments/assets/fc251d84-7d61-4dce-b085-6270b302b9c4)
-![img8](https://github.com/user-attachments/assets/6d864db8-ad06-41a8-a202-153376c0bb88)
-![img9](https://github.com/user-attachments/assets/7345d037-add1-4252-8339-0b01305ee149)
+![img6](https://github.com/user-attachments/assets/d81c7357-1f33-4d1a-b5d5-daeb5f64a5b5)
+![img7](https://github.com/user-attachments/assets/8876aaf0-f5ad-43b2-b73b-66d7d3a7665b)
+![img8](https://github.com/user-attachments/assets/42d72c6c-bce0-45e4-9a87-c6ff1085289d)
+![img9](https://github.com/user-attachments/assets/a27fd6a7-6400-4062-aabc-1c9ecca6864c)
 
