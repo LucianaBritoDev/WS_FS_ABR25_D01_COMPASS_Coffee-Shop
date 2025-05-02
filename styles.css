@@ -459,14 +459,24 @@ body {
     max-width: 500px;
 }
 
-/* Remove coffee splash decorations */
+/* Coffee splash decorations */
 .coffee-splash {
-    display: none;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    z-index: 1;
 }
 
-.coffee-splash-left,
+.coffee-splash-left {
+    left: -100px;
+    bottom: -50px;
+    transform: rotate(0deg);
+}
+
 .coffee-splash-right {
-    display: none;
+    right: -100px;
+    top: -50px;
+    transform: rotate(0deg);
 }
 
 /* Remove line decoration from menu title */
@@ -1522,4 +1532,5 @@ body {
         padding: 60px 20px;
     }
 }
+
 
