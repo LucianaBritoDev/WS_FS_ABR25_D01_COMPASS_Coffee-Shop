@@ -1,51 +1,49 @@
-
 ### Challenge 1 ###
 
 # Bean Scene Coffee Shop
 
-Bem-vindo ao **Bean Scene Coffee Shop**! Este é um site dedicado a amantes de café que desejam descobrir e desfrutar de uma experiência incrível com bebidas e lanches especiais.
+Welcome to **Bean Scene Coffee Shop**! This is a website dedicated to coffee lovers who want to discover and enjoy an amazing experience with special drinks and snacks.
 
-## 🚀 Visão Geral
+## 🚀 Overview
 
-Este projeto é um site para uma cafeteria fictícia chamada **Bean Scene Coffee Shop**. Ele apresenta um design moderno e intuitivo, permitindo que os usuários explorem o menu de cafés e realizem pedidos online.
+This project is a website for a fictional café called **Bean Scene Coffee Shop**. It features a modern and intuitive design, allowing users to explore the coffee menu and place orders online.
 
-## 🛠 Tecnologias Utilizadas
+## 🛠 Technologies Used
 
-O site foi desenvolvido utilizando as seguintes tecnologias:
+The website was developed using the following technologies:
 
-- **HTML5** - Estrutura da página;
-- **CSS3** - Estilos e responsividade;
-- **JavaScript** - Funcionalidades interativas;
-- **Font Awesome** - Ícones;
-- **Google Fonts** - Tipografia moderna;
-- **Slick.js** - Carrossel de imagens.
+- **HTML5** - Page structure;
+- **CSS3** - Styles and responsiveness;
+- **JavaScript** - Interactive features;
+- **Font Awesome** - Icons;
+- **Google Fonts** - Modern typography;
+- **Slick.js** - Image carousel.
 
-## 🌟 Recursos
+## 🌟 Features
 
-- Página inicial com apresentação elegante do café;
-- Menu com diferentes opções de bebidas e lanches;
-- Tabela de menu interativa com filtros;
-- Botões de pedido rápido;
-- Imagens atraentes para melhorar a experiência do usuário.
+- Home page with an elegant presentation of the café;
+- Menu with different beverage and snack options;
+- Interactive menu table with filters;
+- Quick order buttons;
+- Attractive images to enhance the user experience.
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
-BeanScene/ │── index.html # Página principal │── styles.css # Estilos do site │── js/ # Scripts do projeto │── imgs/ # Imagens utilizadas │── fonts/ # Tipografia personalizada │── assets/ # Recursos adicionais
+BeanScene/ │── index.html # Main page │── styles.css # Site styles │── js/ # Project scripts │── imgs/ # Used images │── fonts/ # Custom typography │── js/ # Additional resources
 
 
-## 🏃‍♂️ Como Executar o Projeto
+## 🏃‍♂️ How to Run the Project
 
-1. Clone o repositório:
+1. Clone the repository:
    ```sh
-   git clone https://github.com/seu-usuario/bean-scene-coffee.git
+   git clone https://github.com/your-user/bean-scene-coffee.git
+2. Open the index.html file in your browser.
 
-1. Abra o arquivo index.html em seu navegador.
-
-2. Explore o menu e faça pedidos!
+3. Explore the menu and place orders!
 
 
-📝 Licença:
-Este projeto é apenas para fins educacionais e não possui uma licença específica.
+📝 License:
+This project is for educational purposes only and does not have a specific license.
 
 
 ![img1](https://github.com/user-attachments/assets/9913bb4c-98f6-4c32-a7e6-06ce98e9f8a5)
