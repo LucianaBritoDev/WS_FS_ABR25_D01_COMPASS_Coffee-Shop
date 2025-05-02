@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bean Scene Coffee Shop - Start your day with the best coffee experience">
+    <meta name="keywords" content="coffee, cafe, coffee shop, bean scene, morning coffee">
+    <link rel="stylesheet" href="js/slick.css">
+    <link rel="stylesheet" href="js/slick-theme.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+    <title>Bean Scene Coffee Shop</title>
+</head>
+<body>
+    <div class="hero">
+        <header class="header">
+            <div class="logo">
+                <a href="/">Bean Scene</a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="order-btn header-order">Order now</button>
+        </header>
+
+        <main class="main-content">
+            <div class="hero-text">
+                <h2>We've got your morning covered with</h2>
+                <h1>Coffee</h1>
+                <p>It is best to start your day with a cup of coffee. Discover the
+                best flavours coffee you will ever have. We provide the best
+                for our customers.</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+        </main>
+    </div>
+
+    <section class="discover">
+        <div class="discover-content">
+            <div class="discover-text">
+                <h2>Discover the best coffee</h2>
+                <p>Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity and helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There is no doubt that you will enjoy this coffee more than others you have ever tasted.</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+            <div class="discover-image">
+                <img src="imgs/cup-coffee.png" alt="Coffee cup made of coffee beans">
+            </div>
+        </div>
+    </section>
+
+    <section class="coffee-menu">
+        <div class="coffee-menu-header">
+            <h2>Enjoy a new blend of coffee style</h2>
+            <p>Explore all flavours on our menu with us. There is always a new worth experiencing.</p>
+        </div>
+        
+        <div class="coffee-cards">
+            <div class="coffee-card">
+                <img src="imgs/cup1.jpg" alt="Cappuccino coffee with latte art">
+                <h3>Cappuccino</h3>
+                <p>Coffee 35% | Milk 65%</p>
+                <span class="price">R$2.50</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="coffee-card">
+                <img src="imgs/cup2.jpg" alt="Chai Latte with cinnamon">
+                <h3>Chai Latte</h3>
+                <p>Tea 30% | Milk 70%</p>
+                <span class="price">R$5.50</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="coffee-card">
+                <img src="imgs/cup3.jpg" alt="Macchiato coffee">
+                <h3>Macchiato</h3>
+                <p>Coffee 65% | Milk 35%</p>
+                <span class="price">R$5.99</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+
+            <div class="coffee-card">
+                <img src="imgs/cup4.jpg" alt="Expresso coffee">
+                <h3>Expresso</h3>
+                <p>Coffee 35% | Milk 65%</p>
+                <span class="price">R$1.99</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-table">
+        <div class="menu-container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All items</button>
+                <button class="filter-btn" data-filter="warm">Warm drinks</button>
+                <button class="filter-btn" data-filter="cold">Cold drinks</button>
+                <button class="filter-btn" data-filter="snack">Snacks</button>
+                <button class="filter-btn" data-filter="dessert">Dessert</button>
+            </div>
+
+            <table class="menu-list">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Type</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-category="warm">
+                        <td>Espresso</td>
+                        <td>Warm drink</td>
+                        <td>R$ 1,99</td>
+                    </tr>
+                    <tr data-category="warm">
+                        <td>Vanilla Latte</td>
+                        <td>Warm drink</td>
+                        <td>R$ 3,99</td>
+                    </tr>
+                    <tr data-category="snack">
+                        <td>Sandwich</td>
+                        <td>Snack</td>
+                        <td>R$ 4,99</td>
+                    </tr>
+                    <tr data-category="dessert">
+                        <td>Cheesecake</td>
+                        <td>Dessert</td>
+                        <td>R$ 11,99</td>
+                    </tr>
+                    <tr data-category="cold">
+                        <td>Caramel Frappuccino</td>
+                        <td>Cold drink</td>
+                        <td>R$ 4,99</td>
+                    </tr>
+                    <tr data-category="cold">
+                        <td>Cold Mocha</td>
+                        <td>Cold drink</td>
+                        <td>R$ 2,99</td>
+                    </tr>
+                    <tr data-category="snack">
+                        <td>Cheese Croissant</td>
+                        <td>Snack</td>
+                        <td>R$ 2,99</td>
+                    </tr>
+                    <tr data-category="dessert">
+                        <td>Strawberry cake</td>
+                        <td>Dessert</td>
+                        <td>R$ 7,99</td>
+                    </tr>
+                    <tr data-category="warm">
+                        <td>Hot chocolate</td>
+                        <td>Warm drink</td>
+                        <td>R$ 4,99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="amazing-morning">
+        <div class="amazing-content">
+            <div class="amazing-text">
+                <h2>Get a chance to have an Amazing morning</h2>
+                <p>We are giving you are one time opportunity to experience a better life with coffee.</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="amazing-image">
+                <img src="./imgs/coffee3.png" alt="Disposable coffee cup with coffee logo and brown sleeve">
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="testimonials-header">
+            <h2>Our coffee perfection feedback</h2>
+            <p>Our customers has amazing things to say about us</p>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonials-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <blockquote>
+                            This café has become my sanctuary. Whether it's the smooth espresso to start my day or the cozy environment that helps me focus during meetings, this place has it all. The staff is friendly, and the atmosphere is perfect for getting things done or taking a relaxing break. I highly recommend it to anyone looking for a great cup of coffee and a space that makes work feel just a little bit easier.
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="imgs/testimonials/Jonny Thomas.jpg" alt="Jonny Thomas profile picture">
+                            <div class="author-info">
+                                <h4>Jonny Thomas</h4>
+                                <p>Project Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <blockquote>
+                            I'm constantly brainstorming new ideas, and this café is the perfect place for inspiration. The cozy ambiance, paired with their exceptional coffee, makes it my go-to spot for both work and relaxation. The team is always welcoming, and the menu never disappoints. I always leave feeling refreshed and ready to take on the day. Highly recommended for anyone in need of a great cup of coffee and a peaceful atmosphere.
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="imgs/testimonials/Janett Wilson.jpg" alt="Janett Wilson profile picture">
+                            <div class="author-info">
+                                <h4>Janett Wilson</h4>
+                                <p>Marketing Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <blockquote>
+                            As a student, I'm always looking for the perfect place to study, and this café has quickly become my favorite. The quiet yet vibrant atmosphere helps me focus, and the coffee is amazing – it keeps me energized through long study sessions. I love how welcoming the staff is, and the Wi-Fi is fast, which makes it easy to get my work done. Whether I'm cramming for exams or just taking a break between classes, this place is my go-to.
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="imgs/testimonials/Alisson Harris.jpg" alt="Alisson Harris profile picture">
+                            <div class="author-info">
+                                <h4>Alisson Harris</h4>
+                                <p>Student</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Subscribe to get offers!</h2>
+            <p>Don't miss out on our latest news, updates, tips and special offers.</p>
+            <form class="subscribe-form" id="subscribeForm" novalidate>
+                <input type="email" placeholder="Enter your mail" id="emailInput" required>
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </div>
+        <div class="newsletter-image">
+            <img src="./imgs/cup5.png" alt="Coffee cup with splashing coffee and coffee beans" class="coffee-splash-img">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3 class="footer-logo">Bean Scene</h3>
+                <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><img src="./imgs/logo1-facebook.png" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="./imgs/logo2-instagram.png" alt="Instagram"></a>
+                    <a href="#" aria-label="YouTube"><img src="./imgs/logo3-youtube.png" alt="YouTube"></a>
+                    <a href="#" aria-label="Twitter"><img src="./imgs/logo4-twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">News & Blogs</a></li>
+                        <li><a href="#">Help & Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">How we work</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</li>
+                        <li>+1 202-918-2132</li>
+                        <li>beanscene@mail.com</li>
+                        <li>www.beanscene.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coffee-beans-decoration"></div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
