@@ -1109,11 +1109,13 @@ body {
     max-width: 500px;
 }
 
+/* Newsletter Form */
 .subscribe-form {
     display: flex;
     gap: 15px;
     max-width: 500px;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .subscribe-form input {
@@ -1124,15 +1126,42 @@ body {
     font-size: 16px;
     font-family: 'Playfair Display', serif;
     outline: none;
-    transition: border 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.subscribe-form input:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+    opacity: 0.8;
 }
 
 .subscribe-form input.error {
     border: 2px solid #ff4444;
+    background-color: rgba(255, 68, 68, 0.05);
 }
 
 .subscribe-form input.success {
     border: 2px solid #4CAF50;
+    background-color: rgba(76, 175, 80, 0.05);
+}
+
+.unsubscribe-btn {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(255, 68, 68, 0.2);
+}
+
+.unsubscribe-btn:hover {
+    background-color: #ff0000;
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 12px rgba(255, 68, 68, 0.3);
 }
 
 .form-message {
@@ -1142,6 +1171,7 @@ body {
     border-radius: 5px;
     font-size: 14px;
     display: none;
+    font-family: 'Playfair Display', serif;
 }
 
 .form-message.error {
@@ -1221,7 +1251,12 @@ body {
 
     .subscribe-form {
         flex-direction: column;
-        margin: 0 auto;
+    }
+    
+    .subscribe-form input,
+    .subscribe-btn,
+    .unsubscribe-btn {
+        width: 100%;
     }
     
     .newsletter-image {
@@ -1530,6 +1565,103 @@ body {
         max-width: 1300px;
         margin: 0 auto;
         padding: 60px 20px;
+    }
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    padding: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+}
+
+.hamburger-box {
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 30px;
+    height: 3px;
+    background-color: var(--primary-color);
+    position: absolute;
+    transition: transform 0.15s ease;
+}
+
+.hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block;
+}
+
+.hamburger-inner::before {
+    top: -10px;
+}
+
+.hamburger-inner::after {
+    bottom: -10px;
+}
+
+/* Hamburger Animation */
+.hamburger.is-active .hamburger-inner {
+    transform: rotate(45deg);
+}
+
+.hamburger.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+}
+
+.hamburger.is-active .hamburger-inner::after {
+    bottom: 0;
+    transform: rotate(-90deg);
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        z-index: 1000;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 300px;
+        height: 100vh;
+        background-color: var(--secondary-color);
+        padding: 80px 20px 20px;
+        transition: right 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    .nav.is-active {
+        right: 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav a {
+        color: var(--text-color);
+        font-size: 1.2rem;
+    }
+
+    .header-order {
+        display: none;
     }
 }
 
