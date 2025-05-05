@@ -29,7 +29,7 @@ The website was developed using the following technologies:
 
 ## 📂 Project Structure
 
-BeanScene/ │── index.html # Main page │── styles.css # Site styles │── script.js/ # Project scripts │── imgs/ # Used images │── fonts/ # Custom typography │── js/ # Additional resources
+BeanScene/ │── index.html # Main page │── styles.css # Site styles │── script.js/ # Project scripts │── imgs/ # Used images │── js/ # Additional resources
 
 
 ## 🏃‍♂️ How to Run the Project
